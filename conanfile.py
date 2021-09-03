@@ -11,7 +11,7 @@ class EigenExtensionsConan(ConanFile):
     url = "https://github.com/BenjaminNavarro/conan-eigen-extensions"
     description = "Conan recipe for the eigen-extensions PID package "
     topics = ("C++", "Eigen", "Linear Algebra")
-    requires = "eigen/3.3.7@conan/stable"
+    requires = "eigen/3.3.9"
     generators = "cmake"
 
     def source(self):
